@@ -12,5 +12,5 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: elegantbook-cn.tex
+          root_file: man/SPM.tex
           latexmk_use_xelatex: true
