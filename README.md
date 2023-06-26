@@ -1,14 +1,13 @@
 ```
    ___  ____  __  __
   / __)(  _ \(  \/  )  
-  \__ \ )___/ )    (   Statistical Parametric Mapping
-  (___/(__)  (_/\/\_)  SPM - https://www.fil.ion.ucl.ac.uk/spm/
+  \__ \ )___/ )    (   统计参数映射
+  (___/(__)  (_/\/\_)  
 ```
  
-This README gives a brief introduction to the SPM software. Full details can be found
-on the [SPM website](https://www.fil.ion.ucl.ac.uk/spm/).
+该文件对统计参数映射软件做一个简单的介绍，详细信息可以在 [统计参数映射官网](https://www.fil.ion.ucl.ac.uk/spm/) 上查看。
  
-See also `Contents.m`, `AUTHORS.txt` and `LICENCE.txt`.
+也可以查看 `Contents.m`, `AUTHORS.txt` and `LICENCE.txt`。
   
 # SPM
  
