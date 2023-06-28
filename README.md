@@ -15,9 +15,7 @@ Statistical Parametric Mapping refers to the construction and assessment of spat
 extended statistical process used to test hypotheses about functional imaging data.
 These ideas have been instantiated in software that is called SPM.  
 统计参数映射软件包是为了进行大脑影像数据序列的分析而设计的。
-The
-sequences can be a series of images from different cohorts, or time-series from the
-same subject.  
+该序列可以是一系列不同人的影像，或者是相同受试者的时间序列。
 The current release is designed for the analysis of fMRI, PET, SPECT,
 EEG and MEG.
 
