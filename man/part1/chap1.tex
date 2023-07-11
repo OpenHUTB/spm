@@ -93,7 +93,8 @@ ascending (first slice=bottom): [1:1:nslices] descending (first slice=top): [nsl
 对于 k = 1:nslices round((nslices-k)/2 + (rem((nslices-k),2) * (nslices - 1)/2)) + 1, end interleaved (bottom - > up): [1:2:nslices 2:2:nslices] interleaved (top -> down): [nslices:-2:1, nslices-1:-2:1] 或者，您可以以毫秒为单位输入切片时间 对于每个切片单独。
 
 
-如果这样做，下一项（参考切片）将包含参考时间（以毫秒为单位）而不是参考切片的切片索引。 对于西门子扫描仪，这可以在 MATLAB 中从 dicom 标头获取，如下所示（使用第一个之后的任何卷）： hdr = spm_dicom_headers('dicom.ima'); slice_times = hdr1.Private_0019_1029 请注意，假定切片顺序是从脚到头。 如果不是，请输入：TR - INTRASCAN_TIME - SLICE_TIMING_VECTOR
+如果这样做，下一项（参考切片）将包含参考时间（以毫秒为单位）而不是参考切片的切片索引。 对于西门子扫描仪，这可以在 MATLAB 中从 dicom 标头获取，如下所示（使用第一个之后的任何卷）： $ hdr = spm_dicom_headers('dicom.ima'); slice_times = hdr1.Private_0019_1029 $ 请注意，假定切片顺序是从脚到头。 
+如果不是，请输入：$ TR - INTRASCAN_TIME - SLICE_TIMING_VECTOR $
 
 
 \section{参考切片}
