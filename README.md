@@ -27,6 +27,14 @@ Neuroimaging).  The distributed version is the same as that we use ourselves.
 SPM is made freely available to the [neuro]imaging community, to promote
 collaboration and a common analysis scheme across laboratories.
 
+# 运行
+下载[Octave](https://ftpmirror.gnu.org/octave/windows/octave-8.3.0-w64.zip) 。
+
+Octave运行SPM环境配置参考[链接](https://en.wikibooks.org/wiki/SPM/Octave) 。
+
+[在win10上编译SPM](https://www.fil.ion.ucl.ac.uk/spm/docs/wikibooks/SPM12_MEX_Compilation_on_Windows/) 。
+
+
 # Software
 
 The SPM software is a suite of MATLAB functions, scripts and data files, with some
