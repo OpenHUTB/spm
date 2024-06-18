@@ -15,11 +15,3 @@ jobs:
           root_file: SPM.tex
           working_directory: man
           latexmk_use_xelatex: true
-
-      - name: Release
-          uses: softprops/action-gh-release@v1
-          if: startsWith(github.ref, 'refs/tags/')
-          with:
-            files: SPM.pdf
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
